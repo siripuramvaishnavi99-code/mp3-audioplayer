@@ -1,0 +1,85 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 420px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+
+.input-container input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.input-container input[type="file"] {
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+}
+
+.input-container button {
+  background: #ff4b2b;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.input-container button:hover {
+  background: #ff6a4d;
+}
+
+.player {
+  margin-top: 15px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.controls button,
+.controls a {
+  background: #ff4b2b;
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.controls button:hover,
+.controls a:hover {
+  background: #ff6a4d;
+}

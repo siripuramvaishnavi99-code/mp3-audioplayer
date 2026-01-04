@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Music Player + Downloader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>🎶 Smooth Music Player + Downloader</h2>
+
+    <div class="input-container">
+      <input type="text" id="songLink" placeholder="Paste direct MP3 link here..." />
+      <button id="loadBtn">Load Link</button>
+    </div>
+
+    <p>OR</p>
+
+    <div class="input-container">
+      <input type="file" id="fileInput" accept="audio/*" />
+    </div>
+
+    <div class="player">
+      <p id="songTitle">No song loaded</p>
+      <audio id="audio" controls preload="auto"></audio>
+
+      <div class="controls">
+        <button id="play">▶️ Play</button>
+        <button id="pause">⏸️ Pause</button>
+        <a id="download" href="#" download>⬇️ Download</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
