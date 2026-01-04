@@ -1,0 +1,58 @@
+✅ Software Requirements
+
+Operating System:
+
+Windows / macOS / Linux (any modern OS)
+
+Web Browser:
+
+Google Chrome / Microsoft Edge / Firefox / Safari
+(Any modern browser with HTML5 support)
+
+Programming Technologies:
+
+HTML5
+
+CSS3
+
+JavaScript (ES6)
+
+Optional Development Tools:
+
+Visual Studio Code (recommended)
+
+Live Server extension (for local hosting)
+
+📌 No backend, database, or external frameworks required.
+
+✅ Hardware Requirements
+
+Processor: Any modern processor
+
+RAM: Minimum 2 GB (4 GB recommended)
+
+Storage: Less than 20 MB
+
+Display: Standard screen resolution (for UI display)
+
+✅ Libraries / APIs Used
+
+HTML5 Audio API
+
+<audio> element for music playback
+
+JavaScript DOM API
+
+For handling user interactions and controls
+
+📌 No third-party libraries required.
+
+✅ Browser Compatibility
+
+Chrome ✔
+
+Edge ✔
+
+Firefox ✔
+
+Safari ✔
